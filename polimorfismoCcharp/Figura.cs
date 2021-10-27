@@ -12,7 +12,8 @@ namespace polimorfismoCcharp
         private Double area = 0;
 
         /*
-         * @calcularArea retorna a area dada, ja que a figura nao esta definida
+         * @calcularArea é uma função abstrata, assim podemos a reescrever
+         * mudando totalmente seu sentido.
          * 
          * **/
         public abstract double calcularArea { get; }
